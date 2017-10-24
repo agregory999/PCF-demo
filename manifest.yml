@@ -1,9 +1,9 @@
 ---
 applications:
-- name: nhcmkt
+- name: pcfdemo-concourse
   memory: 512M
   instances: 2
-  host: nhcmkt-saroj
+  host: pcfdemo-concourse
   path: ./target/pcfdemo.war
  
 
